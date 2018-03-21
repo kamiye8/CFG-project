@@ -12,8 +12,8 @@ h1 {
     
 }
 .rect {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     background-color: aliceblue;
     position: absolute;
 }
@@ -26,8 +26,8 @@ button {
     box-shadow: 2px 2px lightsteelblue;
     border: none;
     position: absolute;
-    margin-top: 300px;
-    margin-left: 200px;
+    margin-top: 250px;
+    margin-left: 100px;
     z-index: 0;
 }
 button:hover{
