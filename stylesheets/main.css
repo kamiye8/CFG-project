@@ -24,6 +24,7 @@ h1 {
     width: 100%;
     height: 450px;
     background-color: aliceblue;
+    
 }
 .rect2{
     width: 100%;
@@ -40,6 +41,7 @@ h1 {
     margin-left: 20px;
     margin-right: 800px;
     background-color: aliceblue;
+    box-shadow: 5.5px 5.5px grey;
 }
 button {
     background-color: white;
