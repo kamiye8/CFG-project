@@ -6,10 +6,6 @@ body {
     color: white;
 }
 
-a 
-{
-    color: white !important;
-}
 .navbar {
     font-size: 20px;
     font-family: 'Mina', sans-serif;
@@ -29,39 +25,30 @@ h1{
     text-align: center;
 }
     
-.subtitle {
-    color: lightcyan !important;
-    font-size: 25px;
-    font-family: 'Dancing Script', cursive;
-    
-}
+
 
  h2 {
     font-family: 'Dancing Script', cursive !important;
-    padding-left: 20px;
-    padding-top: 20px; 
+    font-size: 45px !important;
+     padding-top: 50px;
+}
 
+.sub {
+        text-align: center; 
+
+    
 }
 .rect {
     width: 100%; 
 }
-.rect1 {
-    background-image: url('https://cdn.pixabay.com/photo/2016/09/08/12/00/starry-sky-1654074_1280.jpg');
-    background-size: cover;
-}
-.rect2 {
-    background-color: white;
-}
-.rect3 {
-    margin-top: 30px;
-    background-color: aliceblue;
-}
+
 
 .box {
     border: 2px solid white;
+    margin-bottom: 30px;
 }
 .box:hover {
-    box-shadow: 0.5px 2px 2px 2px white;
+    box-shadow: 1px 1px 3px 1px white;
 }
 
 .price 
@@ -70,14 +57,10 @@ h1{
     font-size: 20px;
     padding: 10px;
 }
-*//.text-box-left {
-    padding: 30px;
-    margin-left: 20px;
-    background-color: aliceblue;
-    box-shadow: 5.5px 5.5px grey;
-}
+
 .button {
     background-color: transparent !important;
+    color: white !important;
     font-size: 12px;
     font-family: cursive;
     border: 2px solid white !important;
@@ -95,4 +78,27 @@ h1{
     color: white !important;
     box-shadow: 0.5px 0.5px 2px 2px white;
 }
+
+.footer {
+    background-color: black;
+    padding: 30px;
+    font-size: 10px;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px !important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+}
+
+
+
   
