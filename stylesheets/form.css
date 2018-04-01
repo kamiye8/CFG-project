@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+::placeholder { 
+   color:    whitesmoke;
+}
+
+.navbar {
+    font-size: 20px;
+    font-family: 'Mina', sans-serif;
+}
+
+.navbar-inverse {
+    background-color: black !important;
+}
+
+
+h1{
+    font-size: 110px !important;
+    font-family: 'Dancing Script', cursive !important;
+    padding-top: 60px;
+    padding-left: 60px;
+    color: #e0ebeb !important;
+}
+    
+
+
+ h2 {
+    font-family: 'Mina', sans-serif;
+    padding-left: 20px;
+    padding-top: 20px; 
+
+}
+.rect {
+    width: 100%; 
+}
+.rect1 {
+    background-color: aliceblue;
+    background-image: url("../images/contact.jpg");
+    background-size: cover;
+    padding-top: 60px;
+    height: 600px;
+    
+}
+
+
+input {
+    padding: 10px;
+    margin: 5px;
+    background-color: transparent;
+}
+textarea {
+    padding: 20px;
+    background-color: transparent;
+}
+.box {
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.button {
+    background-color: transparent;
+    font-size: 12px;
+    font-family: cursive;
+    border: 2px solid white !important;
+    padding : 10px 76px 10px 80px;
+    
+}
+
+.button2{
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.button:hover{
+    border: none;
+    color: white !important;
+    box-shadow: 0.5px 0.5px 2px 2px white;
+}
+  
