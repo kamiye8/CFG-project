@@ -23,8 +23,19 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+        
+        <!--test--> 
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <!--test-->
+        
       <a class="navbar-brand" href="#"></a>
     </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+  
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#featured"> Magazines</a></li>
@@ -44,45 +55,91 @@
         </div>
       </div>
     </form>
+      </div>        
   </div>
 </nav>
 
     <!--NAV BAR END-->
 <div class="container-fluid">
-    <div class="row rect1">
+    <div class="row">
     <!--1st box starts here-->
     
-        <div class="col-sm-6">
         
-            <h1>Magnificient <br/>Magazines</h1>
+            <h1 class="col-sm-12">Magnificient <br/>Magazines</h1>
             
-   <!-- <em class="subtitle col-sm-12">A selection of finest readings &amp; subscribtions</em> 
-            
-            <a href="#subscribe"><p  class="col-sm-2 btn button button2">Discover</p></a> -->
-        
-    </div>
-    
-  <!--  <div class="col-sm-6">
-    <img src="images/contact.jpg" width="100%">     
-    </div>    -->
+  
         
 
     <!--1st box finish here-->
 
     <!--2nd box starts here-->
-    <div class="col-sm-12 rect rect1">
+    <div class="col-sm-12">    
         <h2 id="featured"> Magazines</h2>
-
-            <p class="col-sm-4 text-box-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus vehicula orci, nec facilisis diam sagittis eu. Phasellus eu bibendum purus. Praesent sed rutrum tortor. Aliquam suscipit rhoncus turpis at pretium. Proin sem dui, pulvinar et ante at, viverra lobortis ex.
-            </p>
         
-        
-        <p class="col-sm-4 text-box-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus vehicula orci, nec facilisis diam sagittis eu. Phasellus eu bibendum purus. Praesent sed rutrum tortor. Aliquam suscipit rhoncus turpis at pretium. Proin sem dui, pulvinar et ante at, viverra lobortis ex.
-        </p>
     </div>
+    
+<!-- CAROUSEL STARTS-->
+<div class="col-sm-4">
+        
+<ul>
+<li>name 1</li>   
+<li>name 2</li>  
+<li>name 3</li>
+<li>name 4</li>    
+</ul>
+
+</div>        
+<div class="col-sm-4">
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/cookingmag.jpg" alt="cooking magazine" width="100%">
+    </div>
+
+    <div class="item">
+      <img src="images/fashionmag.jpg" alt="fashion magazine" width="100%">
+    </div>
+
+    <div class="item">
+      <img src="images/housemag.jpg" alt="Perfect housewife magazine" width="100%">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+    </div>
+</div>    
+        
+<!-- CAROUSEL ENDS-->        
+        
+<div class="col-sm-4">   
+        
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus vehicula orci, nec facilisis diam sagittis eu. Phasellus eu bibendum purus. Praesent sed rutrum tortor. Aliquam suscipit rhoncus turpis at pretium. Proin sem dui, pulvinar et ante at, viverra lobortis ex.
+            </p>
+    
+    <a href="contact.html"><button class="button">Request Information</button></a>
+        </div>        
+            
+    
     <!--2nd box finish here-->
     <!--3rd  ox starts here-->
-    <div class="col-sm-12 rect rect1">
+    <div class="col-sm-12">
         <h2 id="subscribe">Subscribe</h2>
         
     <div class="col-sm-4">
@@ -130,9 +187,9 @@
             </div>
     </div>
 
-</div>
+        </div>
     <!--3rd box finish here-->
-
     </div>
-    </div>
+</div>
+    
 </body>

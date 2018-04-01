@@ -16,26 +16,14 @@
 }
 
 
-h1{
-    font-size: 110px !important;
+h3{
+    font-size: 45px !important;
     font-family: 'Dancing Script', cursive !important;
-    padding-top: 60px;
-    padding-left: 60px;
-    color: #e0ebeb !important;
 }
     
 
 
- h2 {
-    font-family: 'Mina', sans-serif;
-    padding-left: 20px;
-    padding-top: 20px; 
-
-}
-.rect {
-    width: 100%; 
-}
-.rect1 {
+body {
     background-color: aliceblue;
     background-image: url("../images/contact.jpg");
     background-size: cover;
@@ -56,7 +44,7 @@ textarea {
 }
 .box {
     padding-top: 50px;
-    padding-left: 200px;
+    margin-left: 170px
 }
 
 .button {
@@ -68,10 +56,6 @@ textarea {
     
 }
 
-.button2{
-    margin-left: 75px;
-    margin-top: 30px;
-}
 
 .button:hover{
     border: none;
