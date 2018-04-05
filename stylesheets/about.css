@@ -1,5 +1,5 @@
 .navbar {
-    font-size: 20px;
+    font-size: 10px;
     font-family: 'Mina', sans-serif;
 }
 
@@ -9,7 +9,7 @@ h1 {
     font-family: 'Mina', sans-serif;
     font-size: 60px;
     margin-top: 50px;
-    padding-top: 30px;
+    padding-top: 70px;
     padding-left: 30px;
 
 
@@ -22,7 +22,7 @@ h1 {
 }
 .rect {
     width: 100%;
-    height: 100px;
+    height: 450px;
     background-color: aliceblue;
 
 }
@@ -33,7 +33,7 @@ h1 {
 }
 .rect3 {
     width: 100%;
-    height: 180px;
+    height: 450px;
     background-color: aliceblue;
 }
 .text-box-left {
