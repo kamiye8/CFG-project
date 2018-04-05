@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    color: white;
 }
 ::placeholder { 
    color:    whitesmoke;
@@ -24,12 +23,9 @@ h3{
 
 
 body {
-    background-color: aliceblue;
     background-image: url("../images/contact.jpg");
     background-size: cover;
-    padding-top: 60px;
-    height: 600px;
-    
+    padding-top: 60px;    
 }
 
 
